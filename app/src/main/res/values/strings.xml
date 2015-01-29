@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MainActivity Strings -->
+    <string name="app_name">Stocks Advisor</string>
+    <string name="action_settings">Settings</string>
+    <string name="go_button">Go!</string>
+
+    <!-- CompanyListActivity Strings -->
+    <string name="title_activity_company_list">CompanyListActivity</string>
+    <string name="action_add">Add</string>
+    <string name="companies_title">Companies</string>
+    <string name="action_refresh">Refresh</string>
+
+    <!-- AddNewCompanyActivity Strings -->
+    <string name="title_activity_add_new_company">AddNewCompanyActivity</string>
+    <string name="add_new_company">Add Company</string>
+    <string name="add_company">Enter new company:</string>
+    <string name="add_company_hint">New company\'s symbol…</string>
+    <string name="add_button">Add</string>
+    <string name="menu_delete">Delete</string>
+
+    <!-- CompanyInformationActivity Strings -->
+    <string name="title_activity_company_information">CompanyInformationActivity</string>
+    <string name="title_activity_company_information_app">More Information</string>
+    <string name="info_change">Change:</string>
+    <string name="blank"></string>
+    <string name="info_price">Price:</string>
+    <string name="info_todayslow">Today\'s Low:</string>
+    <string name="info_todayshigh">Today\'s High:</string>
+    <string name="info_yearslow">This Year\'s Low:</string>
+    <string name="info_yearshigh">This Year\'s High:</string>
+    <string name="info_marketcap">Market Capitalization:</string>
+    <string name="info_volume">Volume:</string>
+    <string name="info_avgvolume">Average Daily Volume:</string>
+    <string name="info_exchange">Stock Exchange:</string>
+
+    <!-- MapsActivity Strings -->
+    <string name="map_button">View on Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_map">Map</string>
+
+    <!-- CompanyNewsActivity Strings -->
+    <string name="title_activity_company_news">Company News</string>
+    <string name="news_button">View Company News</string>
+    <string name="connection_error">Connection Error</string>
+    <string name="xml_error">XML Error</string>
+
+    <!-- WebViewActivity Strings -->
+    <string name="title_activity_web_view">WebViewActivity</string>
+
+
+</resources>

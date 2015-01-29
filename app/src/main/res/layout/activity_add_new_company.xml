@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#000000"
+    tools:context="com.example.stockexample.AddNewCompanyActivity">
+
+    <TextView
+        android:id="@+id/add_company_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_company"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/add_company_edittext"/>
+    <EditText
+        android:id="@+id/add_company_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_company_hint"
+        android:textColor="#FFFFFFFF"
+        android:textSize="15sp"
+        android:textColorHint="#FFFFFFFF"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:imeOptions="actionGo"
+        android:singleLine="true"/>
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_button"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        android:layout_below="@+id/add_company_edittext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+</RelativeLayout>
